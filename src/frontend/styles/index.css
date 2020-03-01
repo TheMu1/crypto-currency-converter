@@ -1,0 +1,63 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-grid {
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.custom-padding{
+    padding: 2%;
+}
+
+.custom-card {
+    -webkit-box-shadow: 0 0 5px 1px rgba(34, 36, 38, 0.3);
+    -moz-box-shadow: 0 0 5px 1px rgba(34, 36, 38, 0.3);
+    box-shadow: 0 0 5px 1px rgba(34, 36, 38, 0.3);
+    padding-bottom: 2.5% !important;
+    padding-top: 1% !important;
+}
+
+.custom-input input {
+    border: none !important;
+    font-weight: bold;
+    padding-right: 5px !important;
+}
+
+.custom-hover:hover{
+    cursor: pointer;
+}
+
+.custom-label{
+    color: rgba(34, 36, 38, 0.3);
+    text-align: left;
+    font-weight: bold;
+}
+
+.custom-input .ui.label {
+    background: none;
+    color: rgba(34, 36, 38, 0.3);
+    padding-left: 0;
+}
+
+.border-bottom {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15) !important;
+    border-radius: 0px !important;
+}
+
+.custom-del-icon{
+    float: right !important;
+    margin-right: 7% !important;
+    margin-top: 2% !important;
+}
+
+.custom-conv-row{
+    overflow: hidden !important;
+    width: 82.5%;
+
+}
