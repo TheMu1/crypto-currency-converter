@@ -1,5 +1,5 @@
 import React from "react";
-import {Responsive, Grid, Button, Icon, Label} from "semantic-ui-react";
+import {Responsive, Grid, Button, Icon} from "semantic-ui-react";
 import DropDown from "./parts/dropdown";
 import Input from "./parts/input";
 import apiEndpoints from "../../../api_endpoints.json";
@@ -28,7 +28,7 @@ export default class Converter extends React.Component {
 
     componentDidMount() {
         this.callAPI();
-        this.interval = setInterval((dataUpdateInterval) => {
+        setInterval(() => {
            this.callAPI();
         }, this.state.dataUpdateInterval);
     }
